@@ -43,9 +43,32 @@ def check_structure(target_path):
             
     return feedback
 
+def check_and_fix_git_health(target_path):
+    """Scan .git directory for known issues like desktop.ini in refs."""
+    git_dir = target_path / ".git"
+    if not git_dir.exists():
+        return
+
+    # Check for desktop.ini in refs (causes 'broken ref' warnings)
+    # Recursively find any desktop.ini inside .git/refs
+    broken_refs = list(git_dir.glob("refs/**/desktop.ini"))
+    
+    if broken_refs:
+        print("⚠️  Found broken git refs (desktop.ini) causing git warnings. Fixing...")
+        for ref in broken_refs:
+            try:
+                os.remove(ref)
+                print(f"   ✅ Removed invalid ref: {ref.relative_to(target_path)}")
+            except Exception as e:
+                print(f"   ❌ Failed to remove {ref}: {e}")
+
+
 def audit_repo(target_dir):
     target_path = Path(target_dir).resolve()
     print(f"Auditing: {target_path}\n")
+    
+    # 0. Health Check
+    check_and_fix_git_health(target_path)
     
     has_readme, readme_notes = check_readme(target_path)
     structure_notes = check_structure(target_path)
