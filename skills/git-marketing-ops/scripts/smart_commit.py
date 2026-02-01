@@ -1,8 +1,12 @@
 #!/usr/bin/env python3
 import subprocess
-import inquirer # pip install inquirer
 import sys
 import os
+
+try:
+    import inquirer
+except ImportError:
+    inquirer = None
 
 # Note: Ideally this script would use `inquirer` for a nice UI.
 # However, to be dependency-free for standard environments, we'll use simple input() if inquirer isn't around.
