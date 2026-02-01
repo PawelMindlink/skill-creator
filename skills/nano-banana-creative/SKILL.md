@@ -43,3 +43,17 @@ Prompt: "[Reference Image A] Wide shot, 9:16 aspect ratio. The female subject fr
 * Do not use vague terms like "high quality"—use technical terms like "shallow depth of field" or "volumetric lighting."
 * Always specify Aspect Ratio for Meta (4:5 or 9:16).
 * Always use "Thinking" model (Nano Banana Pro) for text-heavy images.
+
+# Visual Templates
+
+The skill includes a library of high-converting visual archetypes (Urgency, Social Proof, Comparison, etc.).
+
+**Catalog**: See `references/template_catalog.md` for the full list of available layouts.
+
+## Usage
+
+When the user or Strategist requests a specific archetype (e.g., "Us vs Them" or "Flash Sale"):
+
+1. **Lookup**: Check `references/template_catalog.md` to find the matching file (e.g., `winning/6.png`).
+2. **Reference**: Pass the file path to the model or describe its structure explicitly.
+    * *Example*: "Use the layout structure from `assets/visual_templates/winning/6.png` (Split screen comparison). Left side: Competitor (dim lighting), Right side: Our Product (bright lighting)."
