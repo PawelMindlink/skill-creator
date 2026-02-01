@@ -1,0 +1,30 @@
+# Skill Creator - Git Ignore
+# Focus: Track everything related to Code/Skills
+
+# --- System & Temp ---
+Thumbs.db
+Desktop.ini
+.DS_Store
+tmp/
+temp/
+*.log
+
+# --- Cursor/IDE ---
+.idea/
+.vscode/
+*.swp
+
+# --- Dependencies ---
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# --- Environment ---
+.env
+.env.local
+credentials.json
+
+# --- Build Outputs ---
+dist/
+build/
