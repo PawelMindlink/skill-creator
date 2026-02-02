@@ -1,57 +1,57 @@
 ---
 name: marketing-psychology
-description: Expert grounded in human psychology and behavioral economics. Focus on Dopamine, Curiosity Gaps, and Persuasion.
+description: Expert grounded in human psychology and behavioral economics. Focus on Value Equation, Curiosity Gaps, and Persuasion.
 ---
 
 # Marketing Psychology & Mental Models
 
-This skill applies deep psychological triggers to marketing. The core driver of all online behavior is **DOPAMINE**.
+This skill applies deep psychological triggers to marketing. We split psychology into two layers: **The Offer (Macro)** and **The Attention (Micro)**.
 
-# The Core Driver: Dopamine
+# 1. The Macro Driver: Hormozi's Value Equation
 
-Dopamine is the molecule of *more*. It drives seeking. We trigger it via two primary **Levers**. While distinct, they often work best when combined (The "Ozempic Paradox": A Guaranteed Result via a Secret Mechanism).
+Users do not buy "products". They buy a **Dream Outcome**. To maximize value, we must hack this equation:
 
-## Lever 1: The Curiosity Drive (Uncertainty)
+$$Value = \frac{Dream\ Outcome \times Perceived\ Likelihood}{Time\ Delay \times Effort\ \&\ Sacrifice}$$
 
-* **Mechanism**: "I gap in my knowledge that I must close."
-* **Feeling**: Itch, Intrigue.
-* **Best For**: Stopping the scroll (Pattern Interrupt).
-* **Example**: "What he found on this USB..." (Pure Curiosity).
+* **Dream Outcome (Increase)**: What is the "Heaven" state? (e.g., "Making $10k/mo" not "Buying a course").
+* **Perceived Likelihood (Increase)**: Do they believe *they* can do it?
+  * *Lever*: Social Proof, Guarantees, "Legal" language (e.g., "Swears under oath").
+* **Time Delay (Decrease)**: How fast do they get the result?
+  * *Lever*: "In 9 weeks", "Instant access".
+* **Effort & Sacrifice (Decrease)**: The strongest lever.
+  * *Lever*: "Without cardio", "Done-for-you", "Cheatsheet".
 
-## Lever 2: The Specificity Drive (Certainty/Relief)
+# 2. The Micro Fuel: Curiosity & Dopamine
 
-* **Mechanism**: "I have a specific pain and this is the specific cure."
-* **Feeling**: Hope, Relief, Validation.
-* **Best For**: Closing the sale (Action).
-* **Example**: "Lose 12kg in 9 weeks." (Pure Specificity).
+If Value is the destination, **Dopamine is the fuel** that moves them through the "Greased Chute".
 
-## The Synthesis (Hyperdopamine)
+* **Purpose**: Overcome constraints/friction at every micro-step (Scroll -> Stop -> Expand Text -> Read -> Click).
+* **Mechanism**: The Curiosity Gap (Information Gap Theory).
+  * *Context*: "I found a secret..."
+  * *Gap*: "...that changes everything about X."
+  * *Resolution*: [Must Click to Find Out].
 
-The most powerful ads often use **Curiosity to Hook** and **Specificity to Convert**.
+## The "Ozempic Paradox" (Synthesis)
 
-* *Structure*: [Wonder/Shock] -> [Mechanism] -> [Specific Result].
-* *Example*: "The weird 'Purple Fizzy Juice' **(Curiosity)** that melts 12kg in 4 weeks **(Specificity)**."
+The most powerful ads combine these two:
+
+* **Offer**: "Lose 12kg (Dream) without cardio (Low Effort) in 9 weeks (Low Time)." **(High Value)**.
+* **Hook**: "The weird 'Purple Fizzy Juice' ritual usually kept secret..." **(High Curiosity Fuel)**.
 
 # Key Frameworks
 
-## 1. The Curiosity Gap (Lowenstein)
-
-The space between *what we know* and *what we want to know*.
-
-* **Rule**: Provide enough context to make them care, but withhold enough to make them click.
-
-## 2. Inversion (Via Negativa)
+## 1. Inversion (Via Negativa)
 
 Often we define things by what they are *not*.
 
-* "Get [Benefit] **WITHOUT** [Common Pain/Effort]."
-* This removes friction and objection simultaneously.
+* "Get [Dream Outcome] **WITHOUT** [Effort/Sacrifice]."
+* This directly attacks the denominator of the Value Equation.
 
-## 3. Cialdini’s 6 Principles
+## 2. Cialdini’s 6 Principles
 
 1. **Reciprocity**: Give value -> Get attention.
-2. **Social Proof**: Numbers, Reviews (Safety in herd).
-3. **Authority**: Expert endorsement (Safety in rank).
+2. **Social Proof**: Numbers, Reviews (Boosts *Perceived Likelihood*).
+3. **Authority**: Expert endorsement (Boosts *Perceived Likelihood*).
 4. **Consistency**: Micro-commitments.
 5. **Liking**: Authenticity/Rapport.
 6. **Scarcity**: Fear of Missing Out (FOMO).
@@ -60,8 +60,6 @@ Often we define things by what they are *not*.
 
 Audit any asset by asking:
 
-1. **Which Lever is pulling?** Is it "Mystery" or "Relief"? If neither, it's boring.
-2. **Is the mix right?**
-    * *High Pain Market (e.g., Acute Back Pain)*: Needs more **Certainty** ("Fix it now").
-    * *Low Pain/Bored Market (e.g., Gadgets)*: Needs more **Curiosity** ("Look at this cool thing").
-3. **Is the Cost < Reward?** Is the text easy to read relative to the value promised?
+1. **Value Check**: Did we lower the denominator? (Did we remove Effort/Time?)
+2. **Fuel Check**: Is there enough Curiosity to get them to the next line?
+3. **Scent Match**: Does the Landing Page deliver the *exact* Dream Outcome promised in the Ad?
