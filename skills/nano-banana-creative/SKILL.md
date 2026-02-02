@@ -17,12 +17,22 @@ Teach the agent how to construct professional "production briefs" for Nano Banan
 
 # Learning Loop (Data-Driven)
 
-Before generating new briefs, check the performance data if available:
+Before generating new briefs, check the performance data if available in `C:\Users\Paweł\Documents\GitHub\Ad Creator\*.csv`.
 
-1. **Read**: Check `C:\Users\Paweł\Documents\GitHub\Ad Creator\*.csv` (e.g., `Untitled-report-Jan-1-2026-to-Jan-31-2026.csv`).
-2. **Analyze**: Look for the "winning" Creative Type.
-3. **Iterate**:
-    * If "Raw" is winning -> Double down on "Ugly/Native".
+## North Star Metrics
+
+When analyzing what to iterate on, prioritize:
+
+1. **Contribution Profit (Primary)**: The ultimate business truth. Did this creative make money?
+2. **Hook Rate (Secondary)**: Did it stop the scroll? (Use this to optimize the *visual aesthetics*).
+3. **Hold Rate (Tertiary)**: Did it keep attention? (Use this to optimize the *content/subject*).
+
+## Iteration Logic
+
+1. **Read**: Load the CSV.
+2. **Identify**: Find the Top 3 Creatives by **Contribution Profit**.
+3. **Refine**:
+    * If "Raw" is winning -> Double down on "Ugly/Native" variants.
     * If "Studio" is winning -> Double down on "High Fidelity".
     * **Always** keep 20% of budget/briefs for the losing style (to catch trend shifts).
 

@@ -9,16 +9,28 @@ This skill applies deep psychological triggers to marketing. The core driver of 
 
 # The Core Driver: Dopamine
 
-Dopamine is not just "pleasure". It is **Desire** and **Information Seeking**. We can trigger it in two distinct (and sometimes opposite) ways to ensure MECE coverage:
+Dopamine is the molecule of *more*. It drives seeking. We trigger it via two primary **Levers**. While distinct, they often work best when combined (The "Ozempic Paradox": A Guaranteed Result via a Secret Mechanism).
 
-1. **The Curiosity Drive (Uncertainty)**:
-    * *Mechanism*: "I need to know the answer to close this mental gap."
-    * *Use Case*: Top of Funnel, high-noise environments, "Bored" scrollers.
-    * *Tactics*: Blind hooks ("What he found..."), Shock, Novelty.
-2. **The Specificity Drive (Certainty/Relief)**:
-    * *Mechanism*: "I have a specific pain and this looks like the specific cure."
-    * *Use Case*: High-pain markets (Health, B2B), Intent-based search.
-    * *Tactics*: "Lose 12kg in 9 weeks", "Fix knee pain in 5 minutes".
+## Lever 1: The Curiosity Drive (Uncertainty)
+
+* **Mechanism**: "I gap in my knowledge that I must close."
+* **Feeling**: Itch, Intrigue.
+* **Best For**: Stopping the scroll (Pattern Interrupt).
+* **Example**: "What he found on this USB..." (Pure Curiosity).
+
+## Lever 2: The Specificity Drive (Certainty/Relief)
+
+* **Mechanism**: "I have a specific pain and this is the specific cure."
+* **Feeling**: Hope, Relief, Validation.
+* **Best For**: Closing the sale (Action).
+* **Example**: "Lose 12kg in 9 weeks." (Pure Specificity).
+
+## The Synthesis (Hyperdopamine)
+
+The most powerful ads often use **Curiosity to Hook** and **Specificity to Convert**.
+
+* *Structure*: [Wonder/Shock] -> [Mechanism] -> [Specific Result].
+* *Example*: "The weird 'Purple Fizzy Juice' **(Curiosity)** that melts 12kg in 4 weeks **(Specificity)**."
 
 # Key Frameworks
 
@@ -27,9 +39,6 @@ Dopamine is not just "pleasure". It is **Desire** and **Information Seeking**. W
 The space between *what we know* and *what we want to know*.
 
 * **Rule**: Provide enough context to make them care, but withhold enough to make them click.
-* *Too vague*: "Amazing trick." (Ignore)
-* *Too specific*: "Drink water to lose weight." (I know the answer, no click).
-* *Perfect*: "The 5-minute morning liquid ritual that burns fat." (I need to know *which* liquid).
 
 ## 2. Inversion (Via Negativa)
 
@@ -38,19 +47,21 @@ Often we define things by what they are *not*.
 * "Get [Benefit] **WITHOUT** [Common Pain/Effort]."
 * This removes friction and objection simultaneously.
 
-## 3. Cialdini’s 6 Principles (The Classics)
+## 3. Cialdini’s 6 Principles
 
 1. **Reciprocity**: Give value -> Get attention.
-2. **Social Proof**: "1067 niches", "7.8 Billion generated". Numbers build trust.
-3. **Authority**: "Scientific studies show...", "As seen on TV".
-4. **Consistency**: Micro-commitments (Click -> Read -> Buy).
-5. **Liking**: Authenticity, "Raw Native" content builds rapport.
-6. **Scarcity**: "Page comes down soon", "Only 5 spots".
+2. **Social Proof**: Numbers, Reviews (Safety in herd).
+3. **Authority**: Expert endorsement (Safety in rank).
+4. **Consistency**: Micro-commitments.
+5. **Liking**: Authenticity/Rapport.
+6. **Scarcity**: Fear of Missing Out (FOMO).
 
 # How to Audit
 
 Audit any asset by asking:
 
-1. **Is the Dopamine Trigger clear?** Is it Curiosity or Specific Relief? (If neither, it fails).
-2. **Is there a Gap?** Does the headline force me to read the body?
-3. **Is the Cost < Reward?** Is the text easy to read (Greased Chute) relative to the value promised?
+1. **Which Lever is pulling?** Is it "Mystery" or "Relief"? If neither, it's boring.
+2. **Is the mix right?**
+    * *High Pain Market (e.g., Acute Back Pain)*: Needs more **Certainty** ("Fix it now").
+    * *Low Pain/Bored Market (e.g., Gadgets)*: Needs more **Curiosity** ("Look at this cool thing").
+3. **Is the Cost < Reward?** Is the text easy to read relative to the value promised?
