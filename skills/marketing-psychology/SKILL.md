@@ -1,44 +1,56 @@
 ---
 name: marketing-psychology
-description: Expert grounded in human psychology and mental models. Use to audit copy/strategy for persuasion and behavioral leverage.
+description: Expert grounded in human psychology and behavioral economics. Focus on Dopamine, Curiosity Gaps, and Persuasion.
 ---
 
 # Marketing Psychology & Mental Models
 
-This skill applies fundamental psychological principles and mental models to marketing materials to increase influence and conversion.
+This skill applies deep psychological triggers to marketing. The core driver of all online behavior is **DOPAMINE**.
 
-## When to use this skill
+# The Core Driver: Dopamine
 
-- When reviewing copy or strategy for persuasiveness.
-- To identify missing psychological triggers in a campaign.
-- To apply specific frameworks (e.g., Cialdini's Principles, Fogg Behavior Model).
-- To debug why an ad or page isn't converting.
+Dopamine is not just "pleasure". It is **Desire** and **Information Seeking**. We can trigger it in two distinct (and sometimes opposite) ways to ensure MECE coverage:
 
-## Core Models
+1. **The Curiosity Drive (Uncertainty)**:
+    * *Mechanism*: "I need to know the answer to close this mental gap."
+    * *Use Case*: Top of Funnel, high-noise environments, "Bored" scrollers.
+    * *Tactics*: Blind hooks ("What he found..."), Shock, Novelty.
+2. **The Specificity Drive (Certainty/Relief)**:
+    * *Mechanism*: "I have a specific pain and this looks like the specific cure."
+    * *Use Case*: High-pain markets (Health, B2B), Intent-based search.
+    * *Tactics*: "Lose 12kg in 9 weeks", "Fix knee pain in 5 minutes".
 
-### 1. The 6 Principles of Persuasion (Cialdini)
+# Key Frameworks
 
-1. **Reciprocity**: Give value before asking.
-2. **Commitment/Consistency**: Small yes leads to big yes.
-3. **Social Proof**: "Others are doing it."
-4. **Authority**: Expert endorsement.
-5. **Liking**: We buy from humans we like.
-6. **Scarcity**: Fear of missing out (FOMO).
+## 1. The Curiosity Gap (Lowenstein)
 
-### 2. Behavioral Economics
+The space between *what we know* and *what we want to know*.
 
-- **Loss Aversion**: Pain of losing > Pleasure of gaining.
-- **Anchoring**: The first number mentioned sets the baseline.
-- **Paradox of Choice**: Too many options kill conversion.
-- **Decoy Effect**: A "bad" option makes the target option look better.
+* **Rule**: Provide enough context to make them care, but withhold enough to make them click.
+* *Too vague*: "Amazing trick." (Ignore)
+* *Too specific*: "Drink water to lose weight." (I know the answer, no click).
+* *Perfect*: "The 5-minute morning liquid ritual that burns fat." (I need to know *which* liquid).
 
-### 3. Pricing Psychology
+## 2. Inversion (Via Negativa)
 
-- **Charm Pricing**: 9.99 vs 10.00.
-- **Price Relativity**: Offering Good/Better/Best tiers.
+Often we define things by what they are *not*.
 
-## How to use
+* "Get [Benefit] **WITHOUT** [Common Pain/Effort]."
+* This removes friction and objection simultaneously.
 
-1. **Audit**: Analyze the input (copy, landing page, offer) against the Core Models.
-2. **Identify Gaps**: "This offer lacks Scarcity" or "There is no Social Proof."
-3. **Suggest Fixes**: "Add a countdown timer" or "Include a testimonial near the CTA."
+## 3. Cialdini’s 6 Principles (The Classics)
+
+1. **Reciprocity**: Give value -> Get attention.
+2. **Social Proof**: "1067 niches", "7.8 Billion generated". Numbers build trust.
+3. **Authority**: "Scientific studies show...", "As seen on TV".
+4. **Consistency**: Micro-commitments (Click -> Read -> Buy).
+5. **Liking**: Authenticity, "Raw Native" content builds rapport.
+6. **Scarcity**: "Page comes down soon", "Only 5 spots".
+
+# How to Audit
+
+Audit any asset by asking:
+
+1. **Is the Dopamine Trigger clear?** Is it Curiosity or Specific Relief? (If neither, it fails).
+2. **Is there a Gap?** Does the headline force me to read the body?
+3. **Is the Cost < Reward?** Is the text easy to read (Greased Chute) relative to the value promised?

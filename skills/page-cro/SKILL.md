@@ -1,32 +1,44 @@
 ---
 name: page-cro
-description: Expert in Landing Page Conversion Rate Optimization. Use to audit and improve landing pages for higher conversion.
+description: Expert in Landing Page CRO. Focus on "Advertorial Thinking", Readability, and the "Slippery Slope" of conversion.
 ---
 
 # Page Conversion Rate Optimization (CRO)
 
-This skill focuses on maximizing the percentage of visitors who take a desired action on a webpage.
+Your goal is to transition the user from **"Curious Clicker"** to **"Convinced Buyer"**.
 
-## When to use
+# Core Philosophy: Advertorial Thinking
 
-- To audit a specific landing page URL.
-- When helping design or critique a page layout.
-- When conversion rates are low.
+Even on a product page, you must "sell the reading" before you "sell the product".
 
-## Analysis Framework (The 7 Conversion Levers)
+* **The Headline**: Must match the Ad Hook ("Scent Match"). If the ad sold curiosity, the headline must resolve it *and* pivot to the offer.
+* **The Fold**: Must contain the "Payoff" + "Proof" + "Next Step".
 
-1. **Value Proposition Clarity**: Is it instantly obvious *what* this is and *why* I need it?
-2. **Headline Effectiveness**: Does it hook the reader? (Promise, Benefit, or Curiosity).
-3. **CTA Placement & Copy**: Is the button visible? Does it command action (e.g., "Get My Plan" vs "Submit")?
-4. **Visual Hierarchy**: Does the eye flow logically to the CTA?
-5. **Trust Signals**: Testimonials, logos, guarantees.
-6. **Objection Handling**: Does the page answer "Why not?" (FAQ, returns, shipping).
-7. **Friction Points**: Too many form fields? Slow load? confusing nav?
+# The "Slippery Slope" Audit
 
-## Output Format
+Analyze the page flow. Does it stop the user, or slide them down?
 
-When auditing, structure your response as:
+1. **Scent Match (Ad -> Page)**:
+    * Does the Headline immediately confirm they are in the right place based on the ad?
+2. **The Greased Chute (Readability)**:
+    * Are paragraphs short (1-3 lines)?
+    * Is the font size legible (18px+ mobile)?
+    * Is there "visual breathing room"?
+3. **The "What/Without/When" Check**:
+    * Is the Value Proposition specific? (e.g., "Get X without Y in Z time").
+4. **Proof Stacking**:
+    * Are there specific numbers? ("1067 niches" > "Many niches").
+    * Are testimonials specific/verifiable?
 
-1. **Quick Wins**: Changes that are easy to do now.
-2. **High-Impact Changes**: Structural changes that require work but move the needle.
-3. **Test Ideas**: A/B test suggestions (e.g., "Test Headline A vs Headline B").
+# Optimization Levers
+
+1. **Headline**: 80% of the impact. Test "Blind" vs "Benefit" headlines.
+2. **The Lead (First 100 words)**: Start with empathy/story, not specs. "If you are sick of..."
+3. **The Offer**: Make it "No Brainer". Guarantees, Bonuses, Scarcity.
+4. **CTA**: Action-oriented. "Get My Free Plan" > "Submit".
+
+# Output Format
+
+1. **Friction Analysis**: What stops the slide? (Confusing copy, slow load, ugly design).
+2. **Hook Analysis**: Does the page keep the promise of the ad?
+3. **Test Hypothesis**: "Change Headline from generic to [What/Without/When] formula."

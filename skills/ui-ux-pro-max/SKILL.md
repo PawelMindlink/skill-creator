@@ -1,34 +1,40 @@
 ---
 name: ui-ux-pro-max
-description: High-end UI/UX design expert. Use for detailed design critique, layout suggestions, and accessibility checks.
+description: Expert in UI/UX design. Distinguishes between "Product Design" (Clean/Usable) and "Marketing Design" (Persuasive/Native).
 ---
 
 # UI/UX Pro Max
 
-This skill provides professional-grade UI/UX design intelligence.
+This skill provides professional-grade UI/UX design intelligence, understanding that **Context is King**.
 
-## When to use
+# Contexts: Product vs. Marketing
 
-- When designing web interfaces or apps.
-- When critiquing visual aesthetics and usability.
-- When checking accessibility (WCAG).
+## 1. Product & App Design (The "Clean" Mode)
 
-## Priority Checklist
+* **Goal**: Usability, Trust, Retention, Accessibility.
+* **Aesthetic**: Consistent, polished, minimal noise, WCAG compliant.
+* **System**: 8px grid, consistent typography, predictable patterns.
+* **When to use**: Dashboard, Settings, SaaS Tools, Banking Apps.
 
-1. **Accessibility (CRITICAL)**: Color contrast, legible font sizes (16px+ base), hit targets (44px+).
-2. **Touch & Interaction**: Hover states, active states, focus rings.
-3. **Performance**: Layout stability (CLS), visual weight.
-4. **Layout**: Responsive design (Mobile First strategy).
-5. **Typography & Color**: Hierarchy, consistency, brand alignment.
+## 2. Marketing & Ad Design (The "Conversion" Mode)
 
-## Design System Best Practices
+* **Goal**: **ATTENTION**, Click-Through, Sale.
+* **Aesthetic**: "Dopamine Design". High contrast, bold typography, "Native" feel.
+* **The "Ugly" Truth**: Sometimes big, yellow, highlighted text works better than a subtle grotesque sans-serif.
+* **Native UI Mimicry**: Elements that look like system notifications (iOS bubbles, toggle switches) often convert better because they feel familiar.
 
-- **Spacing**: Use a scale (e.g., 4, 8, 16, 24, 32px).
-- **Colors**: Define semantic variables (`primary`, `success`, `video`).
-- **Typography**: Limit to 2 font families.
+# Priority Checklist
 
-## How to use
+1. **Clarity (Above All)**: Can the user understand the offer in 3 seconds?
+2. **Visual Hierarchy**:
+    * **Primary**: The Hook / Headline.
+    * **Secondary**: The CTA / Benefit.
+    * **Tertiary**: The details.
+3. **Touch Targets**: Minimum 44px for interactions (fingers are fat).
+4. **Load Time**: Fancy animations that load slowly kill conversion (LCP < 2.5s).
 
-- **Critique**: "Analyze this screenshot for UI/UX flaws."
-- **Generate**: "Suggest a layout for a checkout page using Tailwind CSS."
-- **Refine**: "Improve the visual hierarchy of this section."
+# How to use
+
+* **Critique (Product)**: "Analyze this dashboard for usability friction and consistency."
+* **Critique (Marketing)**: "Analyze this LP. Is the CTA obvious? Is the 'Fold' utilized? Is it too 'pretty' and boring?"
+* **Generate**: "Design a 'News Ticker' component for a landing page header to induce urgency."

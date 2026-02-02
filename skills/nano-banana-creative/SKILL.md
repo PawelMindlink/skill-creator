@@ -1,59 +1,68 @@
 ---
 name: nano-banana-creative
-description: Expert skill for generating high-converting e-commerce Meta Ad images using Nano Banana (Gemini 3 Pro Image). Handles consistent character/product creation and complex text rendering.
+description: Expert skill for generating high-converting Meta Ad images using Nano Banana. Focus on "Pattern Interrupts" while maintaining "Andromeda Diversity".
 ---
 
 # Goal
 
-Teach the agent how to construct professional "production briefs" for Nano Banana to create high-quality Meta Ad assets for e-commerce clients.
+Teach the agent how to construct professional "production briefs" for Nano Banana to create high-performing Meta Ad assets.
+
+# Core Philosophy: Andromeda Diversity (Testing is King)
+
+* **Diversity Rule**: We do not know what will work. Therefore, we must **test opposites**.
+* **The Mix**: For every product, you must generate briefs across the spectrum:
+  * **Aesthetic A (Polished)**: High-end, studio, aspirational (Trust).
+  * **Aesthetic B (Raw/Native)**: iPhone style, messy, UGC (Relatability).
+  * **Aesthetic C (Weird/Shock)**: High contrast, odd objects, red circles (Curiosity).
+
+# Learning Loop (Data-Driven)
+
+Before generating new briefs, check the performance data if available:
+
+1. **Read**: Check `C:\Users\Paweł\Documents\GitHub\Ad Creator\*.csv` (e.g., `Untitled-report-Jan-1-2026-to-Jan-31-2026.csv`).
+2. **Analyze**: Look for the "winning" Creative Type.
+3. **Iterate**:
+    * If "Raw" is winning -> Double down on "Ugly/Native".
+    * If "Studio" is winning -> Double down on "High Fidelity".
+    * **Always** keep 20% of budget/briefs for the losing style (to catch trend shifts).
 
 # Instructions
 
-When the user asks to create an ad image or product visual, follow these steps:
+When creating briefs, follow the **Nano Banana Anatomy**:
 
-1. **Identify the Use Case**: Determine if it is a "Clean Product Shot," "Lifestyle Mockup," or "Multi-Image Fusion" (using reference images).
-2. **Apply the Nano Banana Anatomy**: Every prompt must include:
-    * **Subject**: Precise description of the product or person (including brand traits).
-    * **Composition**: Shot type (e.g., "Macro," "Low-angle"), POV, and Aspect Ratio (4:5 for Meta Feed, 9:16 for Stories).
-    * **Action/Location**: Where the product is used and the specific mood.
-    * **Style**: Lighting (e.g., "Hard rim light," "Soft box") and Film Stock/Aesthetic.
-    * **Text Rendering**: Specify exact text to be rendered using Nano Banana's advanced OCR capabilities.
-3. **Ensure Character/Product Consistency**:
-    * If using references, explicitly tell the model: "Maintain exact facial features from Image A" or "Preserve the product label and bottle shape from Image B."
-4. **Meta Ad Optimization**:
-    * Suggest "Rule of Thirds" for text placement to avoid overlapping UI elements on Instagram/Facebook.
-    * Use "Search Grounding" for location-accurate backgrounds if the brand requires real-world locales.
+1. **Format & Aspect Ratio**:
+    * **4:5** (Feed) or **9:16** (Stories/Reels).
+
+2. **Aesthetic Selectors (Pick diverse options)**:
+    * **Style 1: Raw Native (UGC)**: "Shot on iPhone", "Flash photography", "Messy background". *Goal: Relatability/Stopping Power.*
+    * **Style 2: Studio Polish**: "Softbox lighting", "Clean marble background", "bokeh". *Goal: Trust/Authority.*
+    * **Style 3: The "Weird" Macro**: Extreme close-up of texture/detail. *Goal: Curiosity.*
+    * **Style 4: Native Overlay**: Adding "native" UI elements (Red circle in Paint, iOS bubbles).
+
+3. **Composition & Action**:
+    * **Subject**: Clear focus.
+    * **Lighting**: Match the aesthetic (Harsh for Raw, Soft for Studio).
+    * **Text Integration**: "Rule of Thirds" to avoid UI overlap.
+
+# Visual Hooks (The "Clickbait" Visuals)
+
+Use these triggers in your prompts (apply primarily to Raw/Weird styles):
+
+* **"The Red Circle"**: Explicitly ask to "Draw a rough red circle around [Feature] looking like it was done in Paint."
+* **"The Arrow"**: "A big red arrow pointing at the product."
+* **"The Contrast"**: "Split screen. Left side: Dim/Sad. Right side: Bright/Happy."
+* **"The Oddity"**: "Product next to an unrelated, contrast-high object."
 
 # Examples
 
-## Example 1: High-End Skincare Ad
+## Example 1: The "Raw Native" Brief
 
-**Input**: "Create a Meta Ad for a luxury face serum called 'Glow-Up'."
+**Input**: "Meta Ad for a coffee brand (Test A)."
 **Output**:
-Prompt: "Close-up macro shot, 4:5 aspect ratio. A sleek frosted glass bottle of 'Glow-Up' serum sitting on a wet marble surface. Soft morning sunlight through a window creating caustic reflections. In the background, a blurred modern bathroom. Render the text 'GLOW UP' in a minimalist serif font on the bottle label. Cinematic, 8k, photorealistic."
+Prompt: "4:5 aspect ratio. POV shot looking down at a messy kitchen counter. A hand holding a bag of [Coffee Brand], slightly tilted. Morning sunlight hitting the bag hard. Background: spilled beans. Style: iPhone photography, unpolished."
 
-## Example 2: Lifestyle Fashion (Consistent Subject)
+## Example 2: The "Studio Polish" Brief
 
-**Input**: "Put this model from Image A in a 1980s Tokyo street at night for a jacket brand."
+**Input**: "Meta Ad for a coffee brand (Test B)."
 **Output**:
-Prompt: "[Reference Image A] Wide shot, 9:16 aspect ratio. The female subject from Image A wearing a vintage oversized leather jacket, walking through a neon-lit Shinjuku street at night. Rain-slicked pavement with reflections of pink and blue neon signs. Moody, cyber-noir style. Maintain exact hairstyle and facial structure from Image A."
-
-# Constraints
-
-* Do not use vague terms like "high quality"—use technical terms like "shallow depth of field" or "volumetric lighting."
-* Always specify Aspect Ratio for Meta (4:5 or 9:16).
-* Always use "Thinking" model (Nano Banana Pro) for text-heavy images.
-
-# Visual Templates
-
-The skill includes a library of high-converting visual archetypes (Urgency, Social Proof, Comparison, etc.).
-
-**Catalog**: See `references/template_catalog.md` for the full list of available layouts.
-
-## Usage
-
-When the user or Strategist requests a specific archetype (e.g., "Us vs Them" or "Flash Sale"):
-
-1. **Lookup**: Check `references/template_catalog.md` to find the matching file (e.g., `winning/6.png`).
-2. **Reference**: Pass the file path to the model or describe its structure explicitly.
-    * *Example*: "Use the layout structure from `assets/visual_templates/winning/6.png` (Split screen comparison). Left side: Competitor (dim lighting), Right side: Our Product (bright lighting)."
+Prompt: "4:5 aspect ratio. Eye-level macro shot of the [Coffee Brand] bag sitting on a pristine white marble surface. Soft, volumetric morning light. Steam rising gently from a cup in the background. Style: Cinematic, 8k, photorealistic, advertising standard."
