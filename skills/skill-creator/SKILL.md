@@ -1,6 +1,9 @@
 ---
 name: skill-creator
 description: Expert skill for designing and creating new agent skills. Follows best practices for modularity and clarity.
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version. Established directory structure and SKILL.md standardization rules.
 ---
 
 # Skill Creator
@@ -62,3 +65,9 @@ description: Does X to achieve Y.
 1. Step one
 2. Step two
 ```
+
+## Troubleshooting
+
+- **Bloated SKILL.md**: If the file is getting too long, move detailed explanations or large templates to the `references/` directory.
+- **Discovery Issues**: Ensure the `name` and `description` in the frontmatter accurately reflect the primary use case.
+- **Agent Confusion**: If the agent ignores the skill, check for overlapping instructions with other skills in the ecosystem (ensure MECE).

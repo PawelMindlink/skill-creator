@@ -1,6 +1,9 @@
 ---
 name: page-cro
 description: Expert in Landing Page CRO. Focus on "Advertorial Thinking", Readability, and the "Slippery Slope" of conversion.
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version. Implemented "Advertorial Thinking" and "Slippery Slope" audit protocols.
 ---
 
 # Page Conversion Rate Optimization (CRO)
@@ -42,3 +45,9 @@ Analyze the page flow. Does it stop the user, or slide them down?
 1. **Friction Analysis**: What stops the slide? (Confusing copy, slow load, ugly design).
 2. **Hook Analysis**: Does the page keep the promise of the ad?
 3. **Test Hypothesis**: "Change Headline from generic to [What/Without/When] formula."
+
+## Troubleshooting
+
+* **High Bounce Rate**: Scent Match failure. The landing page doesn't keep the promise of the ad. Check the headline vs. the ad hook.
+* **Low CTR on Buttons**: The CTA is buried or vague. Use high-contrast colors and action-oriented copy.
+* **Slow Load**: Unoptimized images. Use `audit-website` to identify specific assets slowing down the LCP.

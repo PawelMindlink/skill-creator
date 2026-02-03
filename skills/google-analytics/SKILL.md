@@ -1,6 +1,9 @@
 ---
 name: google_analytics
 description: Official Google Analytics 4 (GA4) skill for auditing traffic, engagement, and conversion data. Acts as the "Auditor" to verify Meta Ads performance.
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version. Implemented attribution check and behavioral analysis protocols.
 ---
 
 # Google Analytics 4 (GA4) Skill
@@ -55,3 +58,10 @@ To use the API features, the user must provide:
 - **Engagement Rate**: Engaged Sessions / Total Sessions.
 - **Event Count**: Total interactions (clicks, scrolls, etc.).
 - **Key Events**: Important actions (Purchases, Leads - formerly Conversions).
+
+## Troubleshooting
+
+- **Missing Credentials**: If `GOOGLE_APPLICATION_CREDENTIALS` is not set, you MUST ask the user for the JSON key path or fallback to CSV analysis.
+- **Property ID Error**: Ensure the Property ID is purely numeric.
+- **Data Not Found**: If "Realtime" shows no traffic but the site is live, check if the GTM tag is actually firing (use `audit-website`).
+- **CSV Format**: If analyzing CSVs, ensure headers match expected GA4 export formats. Normalize headers using `data_science_core` if needed.

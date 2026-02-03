@@ -1,6 +1,9 @@
 ---
 name: analytics_tracking
 description: Infrastructure engineering skill for tracking plans, UTM strategy, and GTM setup. Ensures "Garbage In, Garbage Out" does not happen.
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version. Standardized UTM tracking strategy and Object-Action naming framework.
 ---
 
 # Analytics Tracking Skill
@@ -43,10 +46,9 @@ Use the **Object-Action** framework:
 - `purchase_completed`
 - `newsletter_subscribed`
 
-## Debugging
-
-When data looks wrong:
+## Debugging & Troubleshooting
 
 1. **Check the Link**: Copy the ad link. Does it have `?utm_source=...`?
 2. **Check the Source**: In GA4, go to "Realtime". Click the link. Do you appear as `paid_social`?
 3. **Check the Redirects**: does the landing page strip parameters? (Common issue).
+4. **Data Discrepancy**: If Meta Link Clicks > GA4 Sessions, check for slow LCP or missing tracking pixel.

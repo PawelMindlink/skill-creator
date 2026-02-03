@@ -1,6 +1,10 @@
 ---
 name: nano-banana-creative
 description: Expert skill for generating high-converting Meta Ad images using Nano Banana. Focus on "Pattern Interrupts" while maintaining "Andromeda Diversity".
+version: 1.1.0
+changelog: |
+  v1.0.0: Initial version.
+  v1.1.0: Fixed hard-coded absolute paths. Added "Andromeda Diversity" aesthetic selectors.
 ---
 
 # Goal
@@ -17,7 +21,7 @@ Teach the agent how to construct professional "production briefs" for Nano Banan
 
 # Learning Loop (Data-Driven)
 
-Before generating new briefs, check the performance data if available in `C:\Users\Paweł\Documents\GitHub\Ad Creator\*.csv`.
+Before generating new briefs, check the performance data if available in the project's data exports (e.g., `*.csv` files in the working directory).
 
 ## North Star Metrics
 
@@ -76,3 +80,9 @@ Prompt: "4:5 aspect ratio. POV shot looking down at a messy kitchen counter. A h
 **Input**: "Meta Ad for a coffee brand (Test B)."
 **Output**:
 Prompt: "4:5 aspect ratio. Eye-level macro shot of the [Coffee Brand] bag sitting on a pristine white marble surface. Soft, volumetric morning light. Steam rising gently from a cup in the background. Style: Cinematic, 8k, photorealistic, advertising standard."
+
+## Troubleshooting
+
+* **Aesthetic Mismatch**: If the Raw style looks too "AI-clean," add specific degradation prompts like "noisy image," "glare," or "bad lighting."
+* **Prompt Ignored**: If Nano Banana ignores an element (like the Red Circle), try putting it at the very beginning of the prompt or using the "Native Overlay" style.
+* **Low Engagement**: Test a completely opposite aesthetic. If Studio Polish is failing, go "iPhone-ugly" (Aesthetic B).

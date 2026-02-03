@@ -1,6 +1,9 @@
 ---
 name: marketing-psychology
 description: Expert grounded in human psychology and behavioral economics. Focus on Value Equation, Curiosity Gaps, and Persuasion.
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version. Applied Hormozi's Value Equation and Curiosity Gap frameworks.
 ---
 
 # Marketing Psychology & Mental Models
@@ -63,3 +66,9 @@ Audit any asset by asking:
 1. **Value Check**: Did we lower the denominator? (Did we remove Effort/Time?)
 2. **Fuel Check**: Is there enough Curiosity to get them to the next line?
 3. **Scent Match**: Does the Landing Page deliver the *exact* Dream Outcome promised in the Ad?
+
+## Troubleshooting
+
+* **Weak Hook**: If the "fuel" is low, the ad won't get past the scroll. Use Inversion to attack a specific "Effort & Sacrifice" point.
+* **Complex Offer**: If the Dream Outcome is too broad, Perceived Likelihood drops. Make it more specific.
+* **High Friction**: If users engage but don't convert, check for hidden costs in the denominator (e.g., long loading times or complicated checkout).

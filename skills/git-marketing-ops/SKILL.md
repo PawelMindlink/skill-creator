@@ -1,6 +1,9 @@
 ---
 name: git-marketing-ops
-description: Comprehensive Git & GitHub workflow for marketing projects. Supports bootstrapping new campaigns, auditing existing ones, and maintaining context-rich history. Use for: (1) Setting up new marketing projects, (2) Auditing/fixing existing repos, (3) Making context-aware commits, (4) Tagging releases.
+description: Comprehensive Git & GitHub workflow for marketing projects. Supports bootstrapping new campaigns, auditing existing ones, and maintaining context-rich history.
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version. Standardized init, audit, smart commit, and release tagging workflows.
 ---
 
 # Git Marketing Ops
@@ -83,3 +86,10 @@ Use this when a campaign launches, ends, or hits a major milestone.
 
 - **Structure**: See `references/marketing-readme.md` for the gold standard documentation structure.
 - **Commits**: See `references/commit-convention.md` for detailed commit types.
+
+## Troubleshooting
+
+- **Merge Conflicts**: Use standard git tools or sub-agents to resolve conflicts. Focus on preserving the "Ariadne Style" in READMEs.
+- **`desktop.ini` Errors**: Common on Windows. If git complains about `desktop.ini`, add it to `.gitignore` and remove it from the index: `git rm --cached desktop.ini`.
+- **Lock Files**: If git says a process is already running, wait a few seconds or manually delete `.git/index.lock` if you are certain no other git process is active.
+- **Versioning Issues**: If `tag_version.py` fails, ensure you have committed all changes first.

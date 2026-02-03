@@ -1,6 +1,9 @@
 ---
 name: audit-website
 description: Audit websites for SEO, technical, content, performance and security issues using the squirrelscan cli.
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version using npx squirrel for comprehensive site audits.
 ---
 
 # Website Audit Skill
@@ -43,5 +46,7 @@ Audit websites for SEO, technical, content, performance and security issues usin
 
 ### Troubleshooting
 
-- If `squirrel` command is not found, try `npx squirrel`.
-- If no URL is provided, try to discover one from the environment or ask the user.
+- **Command Not Found**: If `squirrel` command is not found, try `npx squirrel`.
+- **Target Missing**: If no URL is provided, try to discover one from the environment or ask the user.
+- **Crawl Failures**: Check if the site blocks bots via `robots.txt` or Cloudflare.
+- **Report Missing**: Ensure you have the `<audit-id>` from the initial audit step before running the report command.

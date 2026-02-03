@@ -1,6 +1,9 @@
 ---
 name: deep-research
 description: A rigorous 8-phase verification protocol for complex questions.
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version. 8-phase protocol for zero-hallucination verification.
 ---
 
 # Deep Research Protocol
@@ -51,3 +54,9 @@ If Source A says "Sky is Blue", explicitly look for Source B that might say "Sky
 2. *Retrieve*: Search "Hook Rate CTR correlation case studies".
 3. *Triangulate*: Find a MotionApp report, a Varos benchmark, and a Reddit media buyer thread.
 4. *Report*: "Industry data suggests a weak positive correlation (0.2), confirming that Hooks capture attention but don't guarantee clicks (Bridge required)."
+
+## Troubleshooting
+
+- **Contradictory Results**: If sources conflict, report the conflict as a finding rather than choosing one. Use the "Triangulate" phase to find a third "tie-breaker" source.
+- **Paywall/Access Issues**: If a key source is blocked, use `agent-browser` (Windows-ready) to attempt to read content or look for non-paywalled archives/summaries.
+- **Vague Findings**: If search results are too broad, refine your sub-hypotheses with more specific technical terms.

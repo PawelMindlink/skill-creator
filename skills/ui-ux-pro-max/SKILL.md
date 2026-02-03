@@ -1,6 +1,9 @@
 ---
 name: ui-ux-pro-max
 description: Expert in UI/UX design. Distinguishes between "Product Design" (Clean/Usable) and "Marketing Design" (Persuasive/Native).
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version. Implemented Product vs. Marketing design context frameworks.
 ---
 
 # UI/UX Pro Max
@@ -38,3 +41,9 @@ This skill provides professional-grade UI/UX design intelligence, understanding 
 * **Critique (Product)**: "Analyze this dashboard for usability friction and consistency."
 * **Critique (Marketing)**: "Analyze this LP. Is the CTA obvious? Is the 'Fold' utilized? Is it too 'pretty' and boring?"
 * **Generate**: "Design a 'News Ticker' component for a landing page header to induce urgency."
+
+## Troubleshooting
+
+* **Accessibility Issues**: Check color contrast if text is hard to read. Marketing design often sacrifices this—find a balance.
+* **Over-design**: If a interface is too "pretty," it might be boring and lose attention. Add "Ugly Truth" elements or Native UI mimicry.
+* **Conversion Friction**: Check LCP and touch targets on mobile if engaged users aren't clicking.

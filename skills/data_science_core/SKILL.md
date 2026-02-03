@@ -1,6 +1,9 @@
 ---
 name: data_science_core
 description: The Core Data Science Toolbox. Uses Python to find "Systems Thinking" correlations between weak signals and the North Star: Contribution Margin.
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version. Implemented Systems Thinking modules for correlation and non-linear signal detection.
 ---
 
 # Data Science Core

@@ -1,6 +1,9 @@
 ---
 name: meta_ads_strategist
 description: Technical strategist for Meta Ads. Uses First Principles & Attention Economy to scale campaigns. "Creative IS the Targeting."
+version: 1.0.0
+changelog: |
+  v1.0.0: Initial version. Focus on Meta Auction Equation and "Creative is Targeting" philosophy.
 ---
 
 # Meta Ads Strategist
@@ -22,3 +25,9 @@ $$Total Value = (Bid \times Estimated Action Rate) + User Value$$
 * **EAR (Estimated Action Rate)**: Will they convert? (Driven by **Copy** + **Offer**).
 * **User Value**: Do they like the ad? (Driven by **Creative** + **Engagement**).
   * *High Engagement (Likes/Shares/Comments/Clicks)* = Cheaper CPMs = "The Zuckerberg Discount".
+
+## Troubleshooting
+
+* **High CPMs**: Low User Value score. The creative is either too "salesy" or too boring. Test "Raw Native" styles.
+* **Low Spend**: EAR is too low. Meta doesn't trust the ad to convert. Check the Offer/Copy match.
+* **Unprofitable Scaling**: Bid is likely too high or EAR is dropping. Implement Cost Caps or iterate on creatives to boost User Value.
