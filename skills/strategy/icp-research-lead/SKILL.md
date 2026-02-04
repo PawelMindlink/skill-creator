@@ -3,7 +3,7 @@ name: icp-research-lead
 description: The Lead Researcher. Orchestrates the end-to-end Ideal Customer Profile (ICP) process using the "Efficiency Triangle" Protocol.
 version: 1.3.0
 changelog: |
-  v1.3.0: Implemented V5 "Scientific Truth" Logic. Replaced CPM Filter with Efficiency Triangle (CPA is King).
+  v1.3.0: Implemented V5 "Scientific Truth" Logic. Replaced CPM Filter with Efficiency Triangle (CPA is King). Added Constraints & Examples.
   v1.2.0: Added "Quality-Adjusted" Diagnostics (CPM/Objective Filter) and Scent Match.
   v1.1.0: Refined with Bushido "One Filter" Protocol.
   v1.0.0: Initial Version. Orchestrator design based on First Principles.
@@ -81,3 +81,37 @@ When the user requests "ICP Research" or "Analyze Client X", execute these 3 pha
 2. **SKUs Over Names**: Always use Product IDs.
 3. **Scent Check**: The definition of "Scent Match" is: *Does the Landing Page confirm the Ad's reason for clicking within 3 seconds?*
 4. **Efficiency**: Do not over-analyze "Burn" products. Kill them. Focus analysis on "Mismatches" (Revenue Constraints).
+
+# Constraints (Safety First)
+
+* **Immutable Raw Data**: Never modify the input `GA4.csv` or `Meta.csv` files directly. Always create new output files labeled `[Client]_Plik_...`.
+* **No Auto-Spend**: This skill outputs *Strategy* and *Bid Logic*. It does NOT execute ad creation or budget changes via API.
+* **Privacy**: Do not upload Customer PII (emails/phones) to public analysis tools. Use aggregated IDs only.
+
+# Examples
+
+## Example 1: The "Unicorn" Discovery
+
+**Input**:
+
+* product_id: "BAG-123"
+* margin: $50
+* cpm: $5.00 (Low)
+* ctr: 2.5% (High)
+* cr: 3.0% (High)
+
+**Output Label**: **Unicorn**
+*Strategy*: "Scale Aggressively. This product is a money printer. Creative is viral (Low CPM + High CTR) and Offer works."
+
+## Example 2: The "Mismatch" Diagnosis
+
+**Input**:
+
+* product_id: "GLOVE-999"
+* margin: $20
+* cpm: $15.00 (High)
+* ctr: 3.0% (High - Great Ad)
+* cr: 0.2% (Low - Bad Page)
+
+**Output Label**: **Mismatch**
+*Strategy*: "STOP SPENDING. Do not fix the ad. The Ad is great (3% CTR). The Landing Page is killing the sale. Trigger **Scent Match Audit**."
