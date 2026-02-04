@@ -1,0 +1,55 @@
+{
+    "client_name": "Example Client",
+    "website_url": "https://example.com",
+    "currency": "EUR",
+    "financials": {
+        "vat_rate": 1.19,
+        "frequency_multiplier": 1.5,
+        "roas_target": 4.0,
+        "margins": {
+            "default": 0.50,
+            "categories": {
+                "bag": 0.23,
+                "gloves": 0.58
+            }
+        }
+    },
+    "creative_angles": {
+        "angel_1": {
+            "name": "Safety First",
+            "big_idea": "Protect your family.",
+            "format": "Emotional Storytelling"
+        },
+        "angle_2": {
+            "name": "Pro Performance",
+            "big_idea": "Train like a champion.",
+            "format": "High-Paced Montage"
+        }
+    },
+    "personas": {
+        "persona_1": {
+            "name": "Supportive Parent",
+            "keywords": [
+                "son",
+                "daughter",
+                "gift",
+                "safe"
+            ],
+            "angle_id": "angel_1"
+        },
+        "persona_2": {
+            "name": "Aspiring Pro",
+            "keywords": [
+                "champion",
+                "win",
+                "train",
+                "gym"
+            ],
+            "angle_id": "angle_2"
+        }
+    },
+    "settings": {
+        "min_cpm_threshold": 5.0,
+        "scent_match_required": true
+    }
+}

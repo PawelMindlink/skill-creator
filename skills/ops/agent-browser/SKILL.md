@@ -28,7 +28,7 @@ This skill allows you to control a web browser to perform automated tasks, extra
 
 ```powershell
 # Navigate to the skill directory (adjust path to your installation)
-cd <path-to-skill-creator>\skills\agent-browser
+cd <path-to-skill-creator>\skills\ops\agent-browser
 
 # Use the wrapper script instead of npx directly
 .\scripts\browser.ps1 open https://example.com

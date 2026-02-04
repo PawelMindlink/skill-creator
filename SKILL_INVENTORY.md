@@ -4,39 +4,41 @@
 
 This document serves as the "source of truth" for all Agent Competencies.
 
-* **Total Skills**: 13
+* **Total Skills**: 13 (Categorized)
 * **Primary Location (Runtime)**: `C:\Users\Paweł\.gemini\antigravity\global_skills`
 * **Backup Location (Repo)**: `C:\Users\Paweł\Documents\GitHub\skill-creator\skills`
 
 ## 🧠 Strategy (The Brain)
 
-| Skill Name | Description | Disk Path (Runtime) |
+| Skill Name | Description | Repo Path |
 | :--- | :--- | :--- |
-| **`meta_ads_strategist`** | Diagnostics & total value optimization. | `~\global_skills\meta_ads_strategist` |
-| **`deep-research`** | 8-Phase Engineering Rigor verification. | `~\global_skills\deep-research` |
-| **`marketing-psychology`** | Cognitive biases & user motivation. | `~\global_skills\marketing-psychology` |
+| **`meta_ads_strategist`** | Diagnostics & total value optimization. | `skills/strategy/meta_ads_strategist` |
+| **`deep-research`** | 8-Phase Engineering Rigor verification. | `skills/strategy/deep-research` |
+| **`marketing-psychology`** | Cognitive biases & user motivation. | `skills/strategy/marketing-psychology` |
+| **`icp-research-lead`** | **ORCHESTRATOR**. Data -> Psych -> Econ workflow. | `skills/strategy/icp-research-lead` |
 
 ## 🎨 Creative (The Studio)
 
-| Skill Name | Description | Disk Path (Runtime) |
+| Skill Name | Description | Repo Path |
 | :--- | :--- | :--- |
-| **`meta_ads_copywriter`** | Framework-based copywriting (JTBD). | `~\global_skills\meta_ads_copywriter` |
-| **`nano-banana-creative`** | Visual hooks & attention capture. | `~\global_skills\nano-banana-creative` |
-| **`page-cro`** | Landing page optimization. | `~\global_skills\page-cro` |
-| **`ui-ux-pro-max`** | Visual consistency audit. | `~\global_skills\ui-ux-pro-max` |
+| **`meta_ads_copywriter`** | Framework-based copywriting (JTBD). | `skills/creative/meta_ads_copywriter` |
+| **`nano-banana-creative`** | Visual hooks & attention capture. | `skills/creative/nano-banana-creative` |
+| **`page-cro`** | Landing page optimization. | `skills/creative/page-cro` |
+| **`ui-ux-pro-max`** | Visual consistency audit. | `skills/creative/ui-ux-pro-max` |
 
 ## 🔬 Data Intelligence (The Lab)
 
-| Skill Name | Description | Disk Path (Runtime) |
+| Skill Name | Description | Repo Path |
 | :--- | :--- | :--- |
-| **`data_science_core`** | Python/Pandas analysis toolbox. | `~\global_skills\data_science_core` |
-| **`google-analytics`** | Traffic quality & validation. | `~\global_skills\google-analytics` |
-| **`analytics-tracking`** | UTMs & Pixel infrastructure. | `~\global_skills\analytics-tracking` |
-| **`audit-website`** | Technical SEO. | `~\global_skills\audit-website` |
+| **`data_science_core`** | Python/Pandas analysis toolbox. | `skills/data/data_science_core` |
+| **`google-analytics`** | Traffic quality & validation. | `skills/data/google-analytics` |
+| **`analytics-tracking`** | UTMs & Pixel infrastructure. | `skills/data/analytics-tracking` |
+| **`audit-website`** | Technical SEO. | `skills/data/audit-website` |
 
-## 🛠️ Utilities
+## 🛠️ Ops & Utilities (The Engine)
 
-| Skill Name | Description | Disk Path (Runtime) |
+| Skill Name | Description | Repo Path |
 | :--- | :--- | :--- |
-| **`agent-browser`** | Web interaction. | `~\global_skills\agent-browser` |
-| **`skill-creator`** | Self-replication. | `~\global_skills\skill-creator` |
+| **`git-marketing-ops`** | Git versioning & history management. | `skills/ops/git-marketing-ops` |
+| **`agent-browser`** | Web interaction & automation. | `skills/ops/agent-browser` |
+| **`skill-creator`** | Self-replication & maintenance. | `skills/ops/skill-creator` |
