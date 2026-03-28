@@ -176,7 +176,7 @@ def analyze(client_name):
     possible_paths = [
         client_name, 
         os.path.join(os.getcwd(), "Clients", client_name), 
-        os.path.join(os.path.dirname(os.getcwd()), "ICP Research", "Clients", client_name), 
+        os.path.join(os.path.dirname(os.getcwd()), "Meta Ads Analysis Production Upload", "research", "Clients", client_name), 
         f"C:/Users/Paweł/Documents/GitHub/Meta Ads Analysis Production Upload/research/Clients/{client_name}" 
     ]
     

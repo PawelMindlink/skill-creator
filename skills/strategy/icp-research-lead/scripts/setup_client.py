@@ -69,7 +69,7 @@ def setup_client(client_name):
         base_dir = os.path.join("Clients", client_name)
     else:
         # Create new
-        path_repo = os.path.join(os.path.dirname(os.getcwd()), "ICP Research", "Clients", client_name)
+        path_repo = os.path.join(os.path.dirname(os.getcwd()), "Meta Ads Analysis Production Upload", "research", "Clients", client_name)
         if hasattr(sys, 'real_prefix') or (hasattr(sys, 'base_prefix') and sys.base_prefix != sys.prefix):
              # Hardcoded fallback for environment weirdness
              path_repo = f"C:/Users/Paweł/Documents/GitHub/Meta Ads Analysis Production Upload/research/Clients/{client_name}"

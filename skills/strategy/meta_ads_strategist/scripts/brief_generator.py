@@ -64,7 +64,7 @@ def get_random_voc(voc_data, persona):
 
 def generate_briefs(client_name):
     # Paths
-    client_dir = os.path.join("C:\\Users\\Paweł\\Documents\\GitHub\\ICP Research\\Clients", client_name)
+    client_dir = os.path.join("C:\\Users\\Paweł\\Documents\\GitHub\\Meta Ads Analysis Production Upload\\research\\Clients", client_name)
     strategy_map_path = os.path.join(client_dir, f"{client_name}_Mapa_Strategii.csv")
     output_brief_path = os.path.join(client_dir, f"{client_name}_Briefy_Produkcyjne.md")
 
