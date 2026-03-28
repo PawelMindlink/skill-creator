@@ -16,7 +16,7 @@ import random
 # ============================================================================
 # CONFIGURATION
 # ============================================================================
-CLIENT_DIR = Path(r"c:\Users\Paweł\Documents\GitHub\ICP Research\Clients\iiyama")
+CLIENT_DIR = Path(r"c:\Users\Paweł\Documents\GitHub\Meta Ads Analysis Production Upload\research\Clients\iiyama")
 GA4_LANDING_PAGES = CLIENT_DIR / "GA4_Landing_Pages_Segments.csv"
 GA4_ITEMS = CLIENT_DIR / "GA4_Items_Breakdown.csv"
 FEED_XML = CLIENT_DIR / "feed.xml"

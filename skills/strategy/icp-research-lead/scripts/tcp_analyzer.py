@@ -177,7 +177,7 @@ def analyze(client_name):
         client_name, 
         os.path.join(os.getcwd(), "Clients", client_name), 
         os.path.join(os.path.dirname(os.getcwd()), "ICP Research", "Clients", client_name), 
-        f"C:/Users/Paweł/Documents/GitHub/ICP Research/Clients/{client_name}" 
+        f"C:/Users/Paweł/Documents/GitHub/Meta Ads Analysis Production Upload/research/Clients/{client_name}" 
     ]
     
     base_dir = None

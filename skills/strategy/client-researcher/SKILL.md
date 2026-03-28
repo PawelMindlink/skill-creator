@@ -12,7 +12,7 @@ changelog: |
 
 Generate the 5 qualitative research documents that form the foundation of all creative work for a client. These documents are used by `creative-angle-writer` to generate ad angles, and by `meta_ads_copywriter` to write copy.
 
-**Output location:** `Ad Creator/Clients/{ClientName}/`
+**Output location:** `Meta Ads Analysis Production Upload/_archive/ad-creator/Clients/{ClientName}/`
 
 ---
 
@@ -133,7 +133,7 @@ Generate the 5 qualitative research documents that form the foundation of all cr
 ```
 1. Get client brief (product category, brand name, target market)
 2. Run web research for each of the 5 files
-3. Create files in Ad Creator/Clients/{ClientName}/
+3. Create files in Meta Ads Analysis Production Upload/_archive/ad-creator/Clients/{ClientName}/
 4. Cross-reference: quotes in audience.md must be traceable to real sources
 5. Verify: all claims in product analysis.md must have a source
 6. Hand off to creative-angle-writer
@@ -156,5 +156,5 @@ Before handing off to `creative-angle-writer`, verify:
 
 ## Reference: Iiyama Case Study
 
-See `Ad Creator/Clients/Iiyama/` for a complete example of all 5 files.  
+See `Meta Ads Analysis Production Upload/_archive/ad-creator/Clients/Iiyama/` for a complete example of all 5 files.  
 The Iiyama research was conducted in February 2026 and represents the quality standard for this skill.

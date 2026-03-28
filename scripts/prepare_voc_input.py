@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 
 # Paths
-CLIENT_DIR = Path(r"C:\Users\Paweł\Documents\GitHub\ICP Research\Clients\iiyama")
+CLIENT_DIR = Path(r"C:\Users\Paweł\Documents\GitHub\Meta Ads Analysis Production Upload\research\Clients\iiyama")
 GAMING_FILE = CLIENT_DIR / "RAW_HARVEST_DATA_gaming.json"
 OFFICE_FILE = CLIENT_DIR / "RAW_HARVEST_DATA_office.json"
 OUTPUT_FILE = CLIENT_DIR / "voc_input.json"

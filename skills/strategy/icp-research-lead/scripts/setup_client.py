@@ -72,7 +72,7 @@ def setup_client(client_name):
         path_repo = os.path.join(os.path.dirname(os.getcwd()), "ICP Research", "Clients", client_name)
         if hasattr(sys, 'real_prefix') or (hasattr(sys, 'base_prefix') and sys.base_prefix != sys.prefix):
              # Hardcoded fallback for environment weirdness
-             path_repo = f"C:/Users/Paweł/Documents/GitHub/ICP Research/Clients/{client_name}"
+             path_repo = f"C:/Users/Paweł/Documents/GitHub/Meta Ads Analysis Production Upload/research/Clients/{client_name}"
         
         print(f"Agent: Nie znalazłem folderu. Tworzę nowy: {path_repo}")
         os.makedirs(path_repo, exist_ok=True)

@@ -2,8 +2,8 @@ import json
 import os
 
 def generate_briefs():
-    input_json = r"c:\Users\Paweł\Documents\GitHub\ICP Research\Clients\iiyama\hidden_gems_enriched.json"
-    output_md = r"c:\Users\Paweł\Documents\GitHub\ICP Research\Clients\iiyama\iiyama_Briefy_Produkcyjne.md"
+    input_json = r"c:\Users\Paweł\Documents\GitHub\Meta Ads Analysis Production Upload\research\Clients\iiyama\hidden_gems_enriched.json"
+    output_md = r"c:\Users\Paweł\Documents\GitHub\Meta Ads Analysis Production Upload\research\Clients\iiyama\iiyama_Briefy_Produkcyjne.md"
     
     if not os.path.exists(input_json):
         print(f"Error: {input_json} not found.")

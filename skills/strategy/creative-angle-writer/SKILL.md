@@ -13,7 +13,7 @@ changelog: |
 Transform client research files into structured creative angle briefs (GAM-A0X files). Each file is a complete brief that `meta_ads_strategist` and `meta_ads_copywriter` can execute without additional research.
 
 **Input:** 5 research files from `client-researcher`  
-**Output:** `{CLIENT}-A{NN}-{slug}.md` files in `Ad Creator/Clients/{ClientName}/`
+**Output:** `{CLIENT}-A{NN}-{slug}.md` files in `Meta Ads Analysis Production Upload/_archive/ad-creator/Clients/{ClientName}/`
 
 ---
 
@@ -195,7 +195,7 @@ Examples: `GAM-A01-sprzet-mnie-wydal.md`, `GAM-A02-zero-martwych-pikseli.md`
 
 ## Reference: Iiyama Case Study
 
-See `Ad Creator/Clients/Iiyama/GAM-A0X-*.md` for 10 complete examples.
+See `Meta Ads Analysis Production Upload/_archive/ad-creator/Clients/Iiyama/GAM-A0X-*.md` for 10 complete examples.
 
 **Highest scoring angles for reference:**
 

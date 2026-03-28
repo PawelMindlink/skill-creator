@@ -38,7 +38,7 @@ Or run locally: `python tests/reproduce_n8n_priority.py` in `Money Printing Mach
 Run `client-researcher` skill to generate research files.
 
 **Input:** Client name, product category, target market + MSC-ALGO output (for data-driven segments)  
-**Output:** `Ad Creator/Clients/{ClientName}/`
+**Output:** `Meta Ads Analysis Production Upload/_archive/ad-creator/Clients/{ClientName}/`
 
 **Required files:**
 
@@ -62,7 +62,7 @@ Run `client-researcher` skill to generate research files.
 Run `creative-angle-writer` skill to generate GAM angle files.
 
 **Input:** Research files from Stage 2 + MSC-ALGO data from Stage 1  
-**Output:** `{CLIENT}-A{NN}-{slug}.md` files in `Ad Creator/Clients/{ClientName}/`
+**Output:** `{CLIENT}-A{NN}-{slug}.md` files in `Meta Ads Analysis Production Upload/_archive/ad-creator/Clients/{ClientName}/`
 
 **Process:**
 

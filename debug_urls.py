@@ -3,7 +3,7 @@ import pandas as pd
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
-CLIENT_DIR = Path(r"c:\Users\Paweł\Documents\GitHub\ICP Research\Clients\iiyama")
+CLIENT_DIR = Path(r"c:\Users\Paweł\Documents\GitHub\Meta Ads Analysis Production Upload\research\Clients\iiyama")
 GA4_FILE = CLIENT_DIR / "GA4_Landing_Pages_Segments.csv"
 FEED_FILE = CLIENT_DIR / "feed.xml"
 
