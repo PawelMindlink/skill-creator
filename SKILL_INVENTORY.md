@@ -4,7 +4,7 @@
 
 This document serves as the "source of truth" for all Agent Competencies.
 
-* **Total Skills**: 13 (Categorized)
+* **Total Skills**: 16 (Categorized)
 * **Primary Location (Runtime)**: `C:\Users\Paweł\.gemini\antigravity\global_skills`
 * **Backup Location (Repo)**: `C:\Users\Paweł\Documents\GitHub\skill-creator\skills`
 
@@ -12,10 +12,11 @@ This document serves as the "source of truth" for all Agent Competencies.
 
 | Skill Name | Description | Repo Path |
 | :--- | :--- | :--- |
-| **`meta_ads_strategist`** | Diagnostics & total value optimization. | `skills/strategy/meta_ads_strategist` |
+| **`meta_ads_strategist`** | **ALCHEMIST**. Guardian of 'Hyperdopamine'. Briefly directs creatives. | `skills/strategy/meta_ads_strategist` |
 | **`deep-research`** | 8-Phase Engineering Rigor verification. | `skills/strategy/deep-research` |
 | **`marketing-psychology`** | Cognitive biases & user motivation. | `skills/strategy/marketing-psychology` |
-| **`icp-research-lead`** | **ORCHESTRATOR**. Data -> Psych -> Econ workflow. | `skills/strategy/icp-research-lead` |
+| **`icp-research-lead`** | **ARCHITECT**. Generates the Strategy Map (Price Buckets). | `skills/strategy/icp-research-lead` |
+| **`offer-architect`** | **OFFER DESIGNER**. Interview-based offer creation, scoring & value ladder design. | `skills/strategy/offer-architect` |
 
 ## 🎨 Creative (The Studio)
 

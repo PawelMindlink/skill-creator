@@ -1,8 +1,9 @@
 ---
 name: meta-ads-copywriter
 description: Expert in Meta Ads copywriting (Facebook/Instagram). Specialization in Hyperdopamine Ads, Direct Response, and First Principles Thinking.
-version: 1.0.0
+version: 1.1.0
 changelog: |
+  v1.1.0: Added "Reading a GAM Brief" section — how to convert GAM-A0X angle files into ad copy.
   v1.0.0: Initial version. Implemented Hyperdopamine Ad framework and Greased Chute stylistic guidelines.
 ---
 
@@ -109,3 +110,49 @@ When tasked with writing an ad:
 * **Low CTR**: The Hook is weak. Go weirder or more contrarian.
 * **Low Conversion with High CTR**: High curiosity but weak match with the offer. Check "Scent Match" with the landing page.
 * **Ad Disapproved**: Check for "non-functional attributes" (Paint circles) - Meta sometimes flags these as misleading.
+
+---
+
+## Reading a GAM Brief
+
+When `meta_ads_strategist` hands you a GAM-A0X file, map the fields to copy elements:
+
+| GAM Field | Copy Element | How to Use |
+|-----------|-------------|------------|
+| `Customer Language to Use` | **Hook / Pattern Interrupt** | Use verbatim — do NOT paraphrase. These are real customer words. |
+| `Big Idea` | **Burning Intrigue** | The core claim. Expand it into 2-3 sentences. |
+| `Lead Type: EMOTIONAL` | **Greased Chute style** | Start with pain, build anxiety, then reveal solution. |
+| `Lead Type: DIRECT CLAIM` | **Spec-first style** | Lead with the number/claim directly. Polish buyers are spec-literate. |
+| `Objection Handling` | **Body copy** | Address the top 1-2 objections mid-copy before the CTA. |
+| `Key Benefits` | **Benefit bullets** | Pick 3-4 most specific ones. Always use the numbers. |
+| `Evidence Table` | **Social proof / claims** | Use cited review quotes with source attribution. |
+| `Handoff Notes → Constraints` | **What NOT to write** | Legal/compliance guardrails. Read before writing. |
+
+### Example: GAM-A01 → Ad Copy
+
+**GAM Input:**
+* Lead Type: EMOTIONAL
+* Customer Language: *"Przegrywam i nie wiem: moja wina czy monitor?"*
+* Big Idea: *Przegrywasz nie dlatego że jesteś słabszy — grasz na monitorze, który pokazuje ci przeciwnika z opóźnieniem.*
+* Key Benefit: 280Hz, 0.2ms MPRT, 859 PLN
+
+**Output (Greased Chute, Polish):**
+
+```
+Przegrywam i nie wiem: moja wina czy monitor?
+
+To gorsze od zwykłej przegranej.
+
+Bo nie wiesz.
+
+Na 60Hz twój monitor pokazuje ci grę z opóźnieniem.
+Przeciwnik już reaguje. Ty dopiero widzisz.
+
+To nie jest kwestia umiejętności.
+To kwestia sprzętu.
+
+Gold Phoenix. 280Hz. 0.2ms. 859 PLN.
+Usuń zmienną, którą nie kontrolujesz.
+
+→ [Sprawdź Gold Phoenix]
+```

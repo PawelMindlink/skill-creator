@@ -1,0 +1,511 @@
+{
+    "version": "1.1",
+    "comment": "Updated with Macro Personas and Education/Gastronomy Segments",
+    "templates": {
+        "generic": {
+            "persona_id": "generic_buyer",
+            "macro_persona": "General Consumer",
+            "name": "Standard Buyer",
+            "short_description": "Osoba poszukująca podstawowego monitora",
+            "pain": "Brak specyficznych wymagań, obawa przed przepłaceniem",
+            "dream": "Niezawodny sprzęt w dobrej cenie",
+            "transformation": "From uncertainty to confidence in choosing the right monitor"
+        },
+        "gaming_premium": {
+            "persona_id": "gaming_premium",
+            "macro_persona": "Gamer",
+            "name": "E-Sport Aspirant / Hardcore Gamer",
+            "short_description": "Gracz szukający przewagi i topowej wydajności (Red Eagle, Gold Phoenix)",
+            "pain": "Lagi, smużenie, przegrana przez sprzęt",
+            "dream": "Dominacja w rankingu, perfekcyjna płynność (240Hz+)",
+            "transformation": "From casual player to competitive esports contender",
+            "voice_of_customer": [
+                "Potrzebuję 240Hz",
+                "Zero input lag",
+                "G-Sync"
+            ],
+            "frameworks": [
+                "hero_journey",
+                "feature_comparison"
+            ],
+            "styles": [
+                "cyberpunk_neon",
+                "dark_mode_tech"
+            ]
+        },
+        "gaming_entry": {
+            "persona_id": "gaming_entry",
+            "macro_persona": "Gamer",
+            "name": "Casual / Budget Gamer",
+            "short_description": "Gracz budżetowy (Black Hawk, Silver Crow)",
+            "pain": "Sprzęt nie udźwignie nowych gier, drogie GPU",
+            "dream": "Płynna gra w 75-165Hz w dobrej cenie",
+            "transformation": "From laggy gameplay to smooth 75Hz+ gaming on a budget",
+            "voice_of_customer": [
+                "Dobry do CS:GO",
+                "Tani i szybki"
+            ],
+            "frameworks": [
+                "problem_solution",
+                "social_proof"
+            ],
+            "styles": [
+                "dynamic_sport",
+                "clean_tech"
+            ]
+        },
+        "office_corporate": {
+            "persona_id": "office_corporate",
+            "macro_persona": "Professional",
+            "name": "Corporate Power User",
+            "short_description": "Profesjonalista (USB-C Dock, KVM, Webcam)",
+            "pain": "Plątanina kabli, zmęczenie oczu, hałas",
+            "dream": "Czyste biurko (One Cable), efektywność",
+            "transformation": "From cable chaos to minimalist one-cable workspace",
+            "voice_of_customer": [
+                "Jeden kabel do wszystkiego",
+                "Wideokonferencje"
+            ],
+            "frameworks": [
+                "before_after_bridge",
+                "roi_calculator"
+            ],
+            "styles": [
+                "minimalist_white",
+                "corporate_clean"
+            ]
+        },
+        "office_home": {
+            "persona_id": "office_home",
+            "macro_persona": "Professional",
+            "name": "Home Office / Student",
+            "short_description": "Użytkownik domowy (Home Office, Nauka)",
+            "pain": "Ból oczu, mały ekran laptopa",
+            "dream": "Wygodna praca i nauka w domu",
+            "transformation": "From eye strain on laptop to comfortable dual-screen productivity",
+            "voice_of_customer": [
+                "Do pracy i Netflixa",
+                "Ochrona oczu"
+            ],
+            "frameworks": [
+                "storytelling",
+                "problem_solution"
+            ],
+            "styles": [
+                "lifestyle_home",
+                "cozy_tech"
+            ]
+        },
+        "education_public": {
+            "persona_id": "education_public",
+            "macro_persona": "Institution",
+            "name": "School Principal / IT Administrator",
+            "short_description": "Edukacja (Interaktywne Monitory IFP, Szkoły)",
+            "pain": "Nauczyciele boją się technologii, kreda brudzi, projektory są ciemne",
+            "dream": "Nowoczesna klasa, prosta obsługa (Android), 0% VAT",
+            "transformation": "From dusty chalkboards to engaging interactive digital lessons",
+            "voice_of_customer": [
+                "To musi być tak proste, żeby Pani od przyrody obsłużyła",
+                "Zamiast tablicy kredowej"
+            ],
+            "frameworks": [
+                "social_proof",
+                "comparison_chalk_vs_digital"
+            ],
+            "styles": [
+                "educational_friendly",
+                "bright_classroom"
+            ]
+        },
+        "gastronomy_smb": {
+            "persona_id": "gastronomy_smb",
+            "macro_persona": "Business Owner",
+            "name": "Kebab / Restaurant Owner",
+            "short_description": "Mała gastronomia (Menu Boards, Self-Install)",
+            "pain": "Ciągłe drukowanie menu przy zmianie cen, brzydkie kartki",
+            "dream": "Szybka zmiana cen z domu (CMS), apetyczne zdjęcia potraw na ekranie",
+            "transformation": "From outdated paper menus to dynamic digital menu boards that boost sales",
+            "voice_of_customer": [
+                "Chcę zmieniać ceny z telefonu",
+                "Każda 'arabska baba' to powiesi"
+            ],
+            "frameworks": [
+                "before_after_bridge",
+                "money_making_asset"
+            ],
+            "styles": [
+                "appetizing_visuals",
+                "dynamic_menu"
+            ]
+        },
+        "creative_pro": {
+            "persona_id": "creative_pro",
+            "macro_persona": "Specialist",
+            "name": "Graphic Designer / Creator",
+            "short_description": "Twórca wizualny (IPS, 4K, Color Accuracy)",
+            "pain": "Przekłamane kolory, mała przestrzeń robocza",
+            "dream": "Perfekcyjne odwzorowanie barw, ostrość",
+            "transformation": "From color inaccuracy to print-perfect color confidence",
+            "voice_of_customer": [
+                "sRGB 100%",
+                "Matryca IPS to podstawa"
+            ],
+            "frameworks": [
+                "feature_advantage_benefit",
+                "visual_proof"
+            ],
+            "styles": [
+                "artistic_minimal",
+                "studio_chic"
+            ]
+        },
+        "digital_signage": {
+            "persona_id": "digital_signage",
+            "macro_persona": "Business Owner",
+            "name": "Business Integrator / Retail Manager",
+            "short_description": "Klient biznesowy (LFD, Reklama, Info Kiosk)",
+            "pain": "Czarny ekran (awaria), trudna obsługa treści",
+            "dream": "Przyciągająca uwagę reklama 24/7",
+            "transformation": "From unreliable displays to 24/7 attention-grabbing signage",
+            "voice_of_customer": [
+                "Praca 24/7",
+                "Jasność w słońcu"
+            ],
+            "frameworks": [
+                "roi_calculator",
+                "case_study"
+            ],
+            "styles": [
+                "business_bold",
+                "sleek_industrial"
+            ]
+        },
+        "specialist_touch": {
+            "persona_id": "specialist_touch",
+            "macro_persona": "Specialist",
+            "name": "Interactive Solutions Specialist",
+            "short_description": "Rozwiązania dotykowe (Kioski, POS, Edukacja)",
+            "pain": "Brak precyzji dotyku, 'duch'",
+            "dream": "Doskonała interakcja, trwałość",
+            "transformation": "From frustrating ghost touches to precise multi-touch interactions",
+            "voice_of_customer": [
+                "Multi-touch",
+                "Odporność na wodę"
+            ],
+            "frameworks": [
+                "problem_solution",
+                "technical_deep_dive"
+            ],
+            "styles": [
+                "interactive_modern",
+                "educational_clean"
+            ]
+        }
+    },
+    "feature_extraction_rules": {
+        "refresh_rate": {
+            "pattern": "(\\d+)\\s?hz",
+            "type": "int",
+            "group": "gaming_specs"
+        },
+        "response_time": {
+            "pattern": "(?<![A-Z0-9])(\\d+\\.?\\d*)\\s?ms(?![A-Z])",
+            "type": "float",
+            "group": "gaming_specs"
+        },
+        "resolution": {
+            "pattern": "(4k|uhd|wqhd|fhd|1080p|1440p|5k|8k)",
+            "type": "string",
+            "group": "general_specs"
+        },
+        "panel_type": {
+            "pattern": "(ips|va|tn|oled|miniled|ads)",
+            "type": "string",
+            "group": "general_specs"
+        },
+        "curvature": {
+            "pattern": "(\\d+)\\s?r",
+            "type": "int",
+            "group": "immersion"
+        },
+        "docking": {
+            "pattern": "(docking|dock|stacja dokuj|usb-c\\s?(power|pd|dock)|\\d+w\\s?pd)",
+            "type": "bool",
+            "group": "productivity"
+        },
+        "kvm": {
+            "pattern": "(kvm)",
+            "type": "bool",
+            "group": "productivity"
+        },
+        "webcam": {
+            "pattern": "(webcam|kamera|camera)",
+            "type": "bool",
+            "group": "productivity"
+        },
+        "speakers": {
+            "pattern": "(głośnik|speakers)",
+            "type": "bool",
+            "group": "general_specs"
+        },
+        "touch": {
+            "pattern": "(dotyk|touch|pcap|infrared)",
+            "type": "bool",
+            "group": "specialist"
+        },
+        "interactive_ifp": {
+            "pattern": "(interaktywn|ifp|te\\d+|tablica)",
+            "type": "bool",
+            "group": "education"
+        },
+        "android_os": {
+            "pattern": "(android|iiware|google)",
+            "type": "bool",
+            "group": "smart_features"
+        },
+        "cms_signage": {
+            "pattern": "(cms|iisignage|menu board|reklama)",
+            "type": "bool",
+            "group": "signage"
+        },
+        "operation_time": {
+            "pattern": "(16/7|24/7|12/7)",
+            "type": "string",
+            "group": "signage"
+        }
+    },
+    "scoring_rules": {
+        "gaming_premium": {
+            "base_score": 0,
+            "conditions": [
+                {
+                    "feature": "refresh_rate",
+                    "operator": ">=",
+                    "value": 165,
+                    "points": 10
+                },
+                {
+                    "feature": "response_time",
+                    "operator": "<",
+                    "value": 1.0,
+                    "points": 5
+                },
+                {
+                    "title_keyword": "red eagle",
+                    "points": 15
+                },
+                {
+                    "title_keyword": "gold phoenix",
+                    "points": 20
+                }
+            ]
+        },
+        "gaming_entry": {
+            "base_score": 0,
+            "conditions": [
+                {
+                    "feature": "refresh_rate",
+                    "operator": ">=",
+                    "value": 75,
+                    "points": 5
+                },
+                {
+                    "feature": "refresh_rate",
+                    "operator": "<",
+                    "value": 165,
+                    "points": 2
+                },
+                {
+                    "title_keyword": "black hawk",
+                    "points": 15
+                },
+                {
+                    "title_keyword": "silver crow",
+                    "points": 10
+                },
+                {
+                    "title_keyword": "gaming",
+                    "points": 5
+                }
+            ]
+        },
+        "office_corporate": {
+            "base_score": 0,
+            "conditions": [
+                {
+                    "feature": "docking",
+                    "operator": "exists",
+                    "points": 15
+                },
+                {
+                    "feature": "kvm",
+                    "operator": "exists",
+                    "points": 10
+                },
+                {
+                    "feature": "webcam",
+                    "operator": "exists",
+                    "points": 8
+                },
+                {
+                    "title_keyword": "xub",
+                    "points": 5
+                }
+            ]
+        },
+        "creative_pro": {
+            "base_score": 0,
+            "conditions": [
+                {
+                    "feature": "resolution",
+                    "operator": "contains",
+                    "value": "4k",
+                    "points": 8
+                },
+                {
+                    "feature": "resolution",
+                    "operator": "contains",
+                    "value": "5k",
+                    "points": 10
+                },
+                {
+                    "feature": "panel_type",
+                    "operator": "contains",
+                    "value": "ips",
+                    "points": 5
+                },
+                {
+                    "feature": "title",
+                    "operator": "contains",
+                    "value": "prolite x",
+                    "points": 2
+                },
+                {
+                    "title_keyword": "grafik",
+                    "points": 15
+                }
+            ]
+        },
+        "education_public": {
+            "base_score": 0,
+            "conditions": [
+                {
+                    "feature": "interactive_ifp",
+                    "operator": "exists",
+                    "points": 20
+                },
+                {
+                    "feature": "android_os",
+                    "operator": "exists",
+                    "points": 5
+                },
+                {
+                    "title_keyword": "te",
+                    "points": 10
+                },
+                {
+                    "title_keyword": "szkoła",
+                    "points": 15
+                },
+                {
+                    "title_keyword": "tablica",
+                    "points": 10
+                }
+            ]
+        },
+        "gastronomy_smb": {
+            "base_score": 0,
+            "conditions": [
+                {
+                    "feature": "cms_signage",
+                    "operator": "exists",
+                    "points": 15
+                },
+                {
+                    "feature": "operation_time",
+                    "operator": "exists",
+                    "points": 5
+                },
+                {
+                    "title_keyword": "menu",
+                    "points": 10
+                },
+                {
+                    "feature": "resolution",
+                    "operator": "contains",
+                    "value": "uhd",
+                    "points": 2
+                }
+            ]
+        },
+        "digital_signage": {
+            "base_score": 0,
+            "conditions": [
+                {
+                    "feature": "operation_time",
+                    "operator": "exists",
+                    "points": 10
+                },
+                {
+                    "title_keyword": "signage",
+                    "points": 20
+                },
+                {
+                    "title_keyword": "lfd",
+                    "points": 10
+                },
+                {
+                    "title_keyword": "wielkoformatow",
+                    "points": 15
+                }
+            ]
+        },
+        "specialist_touch": {
+            "base_score": 0,
+            "conditions": [
+                {
+                    "feature": "touch",
+                    "operator": "exists",
+                    "points": 20
+                },
+                {
+                    "title_keyword": "dotyk",
+                    "points": 20
+                },
+                {
+                    "title_keyword": "touch",
+                    "points": 20
+                },
+                {
+                    "feature": "interactive_ifp",
+                    "operator": "not_exists",
+                    "points": 5
+                }
+            ]
+        },
+        "office_home": {
+            "base_score": 1,
+            "conditions": [
+                {
+                    "feature": "speakers",
+                    "operator": "exists",
+                    "points": 2
+                },
+                {
+                    "feature": "panel_type",
+                    "operator": "contains",
+                    "value": "ips",
+                    "points": 2
+                },
+                {
+                    "title_keyword": "biurow",
+                    "points": 5
+                },
+                {
+                    "title_keyword": "home",
+                    "points": 5
+                }
+            ]
+        }
+    }
+}

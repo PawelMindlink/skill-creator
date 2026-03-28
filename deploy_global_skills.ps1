@@ -3,7 +3,7 @@
 # Syncs current repo skills to the Global Antigravity Directory
 
 $Source = "$PSScriptRoot\skills"
-$GlobalDir = "$env:USERPROFILE\.gemini\antigravity\global_skills"
+$GlobalDir = "$env:USERPROFILE\.gemini\antigravity\skills"
 
 Write-Host "🚀 Deploying Skills to Global Context..." -ForegroundColor Cyan
 Write-Host "Source: $Source"
@@ -29,6 +29,13 @@ foreach ($Cat in $Categories) {
     
     # Copy Content (Force Overwrite)
     Copy-Item -Path "$($Cat.FullName)\*" -Destination $DestCat -Recurse -Force
+}
+
+# 3. Copy Inventory Map (Helper for Agents)
+$MapSource = "$PSScriptRoot\SKILL_INVENTORY.md"
+if (Test-Path $MapSource) {
+    Copy-Item -Path $MapSource -Destination "$GlobalDir\README.md" -Force
+    Write-Host "Syncing Map: SKILL_INVENTORY.md -> README.md" -ForegroundColor Yellow
 }
 
 Write-Host "✅ Deployment Complete!" -ForegroundColor Green

@@ -1,10 +1,11 @@
 ---
 name: nano-banana-creative
-description: Expert skill for generating high-converting Meta Ad images using Nano Banana. Focus on "Pattern Interrupts" while maintaining "Andromeda Diversity".
-version: 1.1.0
+description: Expert skill for generating high-converting Meta Ad images using Nano Banana. Focus on "Pattern Interrupts" while maintaining "Andromeda Diversity". Reads GAM angle files to select the correct aesthetic.
+version: 1.2.0
 changelog: |
-  v1.0.0: Initial version.
+  v1.2.0: Added GAM angle type → aesthetic mapping. Added ad_formats_catalog.md reference.
   v1.1.0: Fixed hard-coded absolute paths. Added "Andromeda Diversity" aesthetic selectors.
+  v1.0.0: Initial version.
 ---
 
 # Goal
@@ -66,6 +67,38 @@ Use these triggers in your prompts (apply primarily to Raw/Weird styles):
 * **"The Arrow"**: "A big red arrow pointing at the product."
 * **"The Contrast"**: "Split screen. Left side: Dim/Sad. Right side: Bright/Happy."
 * **"The Oddity"**: "Product next to an unrelated, contrast-high object."
+
+# GAM Angle → Aesthetic Starting Hypothesis
+
+> [!IMPORTANT]
+> **Andromeda Diversity overrides everything.** The table below is a *starting hypothesis* for your first test. You must always run at least one opposite aesthetic to discover what actually works.
+
+When `meta_ads_strategist` provides a GAM-A0X file, use this as your **first test hypothesis**:
+
+| GAM Lead Type | First Hypothesis | Always Also Test |
+|--------------|-----------------|-----------------|
+| EMOTIONAL | Raw Native (UGC) | Studio Polish (you may be wrong) |
+| DIRECT CLAIM | Studio Void or Spec Card | Raw Native (specs in UGC style can outperform) |
+| HYBRID | Both simultaneously | — |
+| IDENTITY | The Context (product in scene) | Raw Native |
+| SOCIAL PROOF | Native Overlay (forum/Discord style) | Studio Polish |
+
+**Segment is a stronger signal than angle type:**
+
+| Segment | Lean Toward | Why |
+|---------|------------|-----|
+| Competitive Shooter (18-26) | Raw Native | Peer-to-peer authenticity; distrust of polished ads |
+| Immersive Gamer (25-35) | Studio Polish or Spec Card | Higher income; responds to quality signals |
+| WFH Power User (28-42) | Studio Polish | Professional context; aspirational |
+| Budget First Timer (16-22) | Raw Native | Relatability over aspiration |
+
+**Placement is also a signal:**
+* Reels / Stories → Raw Native (native to format)
+* Feed → can be either; test both
+
+Also read the **Handoff Notes** section of the GAM file — it contains visual constraints specific to that angle.
+
+> **Ad Formats Reference**: See `references/ad_formats_catalog.md` for format specs (4:5, 9:16, carousel) and composition rules.
 
 # Examples
 
